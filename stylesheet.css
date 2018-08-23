@@ -1,0 +1,83 @@
+body {
+	background-color: #183152;
+}
+
+.twitLink {
+	float: right;
+
+}
+
+.link {
+	font-size: 1.4vw;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #C4D7ED;
+}
+
+#quote {
+	
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+}
+
+
+#main {
+	font-size: 1.7vw;
+	text-align: center;
+	height: 20%;
+	width: 90%;
+	position: absolute;
+	color: #C4D7ED;
+	line-height: 30px;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Josefin Slab', serif;
+}
+
+.btn {
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+hr {
+    display: block;
+    color: #C4D7ED;
+    height: 1px;
+    border: 0;
+    margin: 1em auto;
+    padding: 0;
+}
+
+#newQuoteBtn {
+	float:left;
+	font-family: 'Josefin Slab', serif;
+	border-radius: 15px;
+	background-color: #375D81;
+	border:none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+}
+#newQuoteBtn:hover {
+	border-style: thin;
+	color: white;
+}
+
+#newQuoteBtn:focus {outline:0;}
+
+#auth {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Josefin Slab', serif;
+	border-bottom: 1px solid white;
+}
